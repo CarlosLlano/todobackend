@@ -21,7 +21,7 @@ builder:
   command: ["pip", "wheel", "--no-index", "-f /build", "."]
 
 agent:
-  image: dakar9499/ansible
+  image: dakar9499/docker-ansible
   links:
     - db
   environment:

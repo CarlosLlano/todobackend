@@ -56,7 +56,7 @@ db:
     MYSQL_ROOT_PASSWORD: password
 
 agent:
-  image: dakar9499/ansible
+  image: dakar9499/docker-ansible
   links:
     - db
   environment:
